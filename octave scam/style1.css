@@ -1,0 +1,20 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Background color for the navbar */
+    padding: 10px 0; /* Adjust padding to your liking */
+    z-index: 100; /* Ensures the navbar is on top of other elements */
+}
+
+#content {
+    /* Add margin to the top of your content to prevent it from being obscured by the sticky navbar */
+    margin-top: 60px; /* Adjust this value to match the height of your navbar */
+    
+}
+
+.fade-in-fwd {
+	-webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
